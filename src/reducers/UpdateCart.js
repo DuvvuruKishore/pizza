@@ -1,4 +1,4 @@
-export default function (state = {items: [], token: null, profile: {}}, action) {
+export default function foo(state = {items: [], token: null, profile: {}}, action) {
     switch (action.type) {
         case "UPDATE_CART":
             return {...state, items: action.payload};
